@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/errorImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mirage_no_connection"
+        android:layout_above="@id/errorTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/errorTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Title"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:textColor="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Error Message"
+        android:layout_below="@id/errorTitle"
+        android:fontFamily="@font/open_sans_regular"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/errorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Error Button"
+        android:layout_below="@id/errorMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

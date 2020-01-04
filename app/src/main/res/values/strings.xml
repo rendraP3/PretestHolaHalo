@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HolaHalo</string>
+
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Nature</item>
+        <item>Science</item>
+        <item>Education</item>
+        <item>Sports</item>
+        <item>Animals</item>
+    </string-array>
+
+    <string name="category_prompt">Select Category</string>
+
+    <string name="no_connection_title">Oops, your connection seems off…</string>
+    <string name="no_connection_message">Something has gone wrong with the internet connection. Let\'s give it another shot</string>
+    <string name="no_result_message">What you searched was unfortunately not found or doesn\'t exist</string>
+    <string name="no_result_title">Sorry, no result found</string>
+    <string name="something_when_wrong_title">Something wrong here…</string>
+    <string name="something_when_wrong_message">Sorry, we\'re having some technical issues (as you can see). Please try again later.</string>
+
+    <string name="no_nothing_title">Boo, nothing to see here</string>
+    <string name="no_nothing_message_1">It\'s seems there are no shared insight</string>
+    <string name="no_nothing_message_2">Find the images you love on the apps by adding them to your favorite images</string>
+
+    <string name="try_again">Try Again</string>
+    <string name="got_it">Got It</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_filter">Filter</string>
+
+    <string name="image_resolution">Image Resolution : %1$d x %2$d</string>
+    <string name="favourite">Favourite</string>
+</resources>
